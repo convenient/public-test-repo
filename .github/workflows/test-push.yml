@@ -35,6 +35,8 @@ jobs:
 
           echo "abc123" > somefile.txt
           git add somefile.txt
+          echo "abc987" > somefile2.txt
+          git add somefile2.txt
 
           git status
 
